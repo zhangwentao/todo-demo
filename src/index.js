@@ -3,5 +3,7 @@ import App from './app.vue';
 
 new Vue({
   el: '#app',
-  template: '<app/>'
+  render: function(createElement) {
+    return createElement(App);
+  }
 })

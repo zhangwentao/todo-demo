@@ -1,0 +1,11 @@
+{
+  "name": "todo-demo",
+  "version": "1.0.0",
+  "description": "build a vue project from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wentao.zhang",
+  "license": "ISC"
+}

@@ -4,6 +4,7 @@
   "description": "build a vue project from scratch",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --module-bind vue=vue-loader src/index.js dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wentao.zhang",
